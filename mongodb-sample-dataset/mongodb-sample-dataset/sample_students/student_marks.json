@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Robert",
+        "age": 16,
+        "sub": 1,
+        "marks": [
+            89,
+            78,
+            90
+        ]
+    },
+    {
+        "name": "Oliver",
+        "age": 17,
+        "sub": 1,
+        "marks": [
+            78,
+            85,
+            89
+        ]
+    },
+    {
+        "name": "Henry",
+        "age": 15,
+        "sub": 1,
+        "marks": [
+            88,
+            89,
+            76
+        ]
+    },
+    {
+        "name": "David",
+        "age": 16,
+        "sub": 2,
+        "marks": [
+            86,
+            84,
+            66
+        ]
+    }
+]

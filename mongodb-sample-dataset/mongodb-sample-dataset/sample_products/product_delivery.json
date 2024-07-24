@@ -1,0 +1,98 @@
+[
+    {
+        "_id": 1,
+        "address": "2130 Messy Way",
+        "zipCode": "90698345",
+        "delivered": [
+            "Documents",
+            "Food",
+            "electronics",
+            "Books"
+        ],
+        "Feedback": [
+            {
+                "product": "xyz",
+                "score": 6
+            },
+            {
+                "product": "abc",
+                "score": 7
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "address": "156 Lunar way garden",
+        "delivered": [
+            "Food",
+            "electronics"
+        ],
+        "Feedback": [
+            {
+                "product": "xyz",
+                "score": 5
+            },
+            {
+                "product": "abc",
+                "score": 4
+            }
+        ]
+    },
+    {
+        "_id": 3,
+        "address": "456 Penny way Palace",
+        "zipCode": 3921412,
+        "delivered": [
+            "electronics"
+        ],
+        "Feedback": [
+            {
+                "product": "xyz",
+                "score": 8
+            },
+            {
+                "product": "abc",
+                "score": 9
+            }
+        ]
+    },
+    {
+        "_id": 4,
+        "address": "155 Solar Ringroad",
+        "delivered": [
+            "Books"
+        ],
+        "Feedback": [
+            {
+                "product": "xyz",
+                "score": 5
+            },
+            {
+                "product": "abc",
+                "score": 2
+            }
+        ]
+    },
+    {
+        "_id": 5,
+        "address": "134 Julie Garden",
+        "zipCode": [
+            "834847278",
+            "1893289032"
+        ],
+        "delivered": [
+            "Food",
+            "electronics"
+        ],
+        "Feedback": [
+            {
+                "product": "xyz",
+                "score": 4
+            },
+            {
+                "product": "abc",
+                "score": 8
+            }
+        ]
+    }
+]
