@@ -126,3 +126,12 @@ db.CollectionName.replaceOne({ "field": "value" }, { "newDocument" })
 db.StudentInfo.replaceOne({ Name: "Huy" }, { Name: "Huy Tran", Age: 22 })
 </code>
 </pre>
+
+<h2 style="font-size: 24px; margin-top: 20px;">Import</h2>
+<pre>
+<code>
+mongoimport --db Name_Database --collection Name_Collection --jsonArray --file "path to file json"
+<small>For example:</small>
+mongoimport --db sample_weatherdata --collection data --jsonArray --file "C:\Users\huypg\Desktop\Mongo\mongodb-sample-dataset\mongodb-sample-dataset\sample_weatherdata\data.json"
+</code>
+</pre>
