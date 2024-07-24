@@ -31,7 +31,7 @@ db.StudentInfo.insertOne({ Name: "Huy" })
 <h2 style="font-size: 24px; margin-top: 20px; color: #007BFF;">InsertMany</h2>
 <pre>
 <code>
-db.CollectionName.insertMany()
+db.CollectionName.insertMany({Type: "Value of type"})
 // For example:
 db.StudentInfo.insertMany([{ Name: "Huy" }, { Name: "Minh" }])
 </code>
@@ -49,7 +49,7 @@ db.StudentInfo.find()
 <h2 style="font-size: 24px; margin-top: 20px; color: #007BFF;">UpdateOne</h2>
 <pre>
 <code>
-db.CollectionName.updateOne({ Name: "currentName" }, { $set: { Name: "newName" } })
+db.CollectionName.updateOne({Type: "current Value of type" }, { $set: {Type: "new Value of type" } })
 // For example:
 db.StudentInfo.updateOne({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 </code>
@@ -58,7 +58,7 @@ db.StudentInfo.updateOne({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 <h2 style="font-size: 24px; margin-top: 20px; color: #007BFF;">DeleteOne</h2>
 <pre>
 <code>
-db.CollectionName.deleteOne({ Name: "nameToDelete" })
+db.CollectionName.deleteOne({Type: "Value of type To Delete" })
 // For example:
 db.StudentInfo.deleteOne({ Name: "Huy" })
 </code>
