@@ -123,7 +123,9 @@ db.StudentInfo.updateMany({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 <pre>
 <code>
 db.CollectionName.replaceOne({ "field": "value" }, { "newDocument" })
+</code>
 <span style="color: #28a745;">For example:</span>
+</code>
 db.StudentInfo.replaceOne({ Name: "Huy" }, { Name: "Huy Tran", Age: 22 })
 </code>
 </pre>
