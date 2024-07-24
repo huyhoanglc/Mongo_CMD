@@ -15,7 +15,7 @@ use "Name of Database"
 <pre>
 <code>
 db.createCollection("Name of Collection")
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.createCollection("StudentInfo")
 </code>
 </pre>
@@ -24,7 +24,7 @@ db.createCollection("StudentInfo")
 <pre>
 <code>
 db.CollectionName.insertOne()
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.insertOne({ Name: "Huy" })
 </code>
 </pre>
@@ -33,7 +33,7 @@ db.StudentInfo.insertOne({ Name: "Huy" })
 <pre>
 <code>
 db.CollectionName.insertMany()
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.insertMany([{ Name: "Huy" }, { Name: "Minh" }])
 </code>
 </pre>
@@ -42,7 +42,7 @@ db.StudentInfo.insertMany([{ Name: "Huy" }, { Name: "Minh" }])
 <pre>
 <code>
 db.CollectionName.find()
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.find()
 </code>
 </pre>
@@ -51,7 +51,7 @@ db.StudentInfo.find()
 <pre>
 <code>
 db.CollectionName.updateOne({ Name: "currentName" }, { $set: { Name: "newName" } })
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.updateOne({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 </code>
 </pre>
@@ -60,7 +60,7 @@ db.StudentInfo.updateOne({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 <pre>
 <code>
 db.CollectionName.deleteOne({ Name: "nameToDelete" })
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.deleteOne({ Name: "Huy" })
 </code>
 </pre>
@@ -81,7 +81,7 @@ use "Name of Database"
 <pre>
 <code>
 db.createCollection("Name of Collection")
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.createCollection("StudentInfo")
 </code>
 </pre>
@@ -90,7 +90,7 @@ db.createCollection("StudentInfo")
 <pre>
 <code>
 db.CollectionName.insertOne()
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.insertOne({ Name: "Huy" })
 </code>
 </pre>
@@ -99,7 +99,7 @@ db.StudentInfo.insertOne({ Name: "Huy" })
 <pre>
 <code>
 db.CollectionName.insertMany()
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.insertMany([{ Name: "Huy" }, { Name: "Minh" }])
 </code>
 </pre>
@@ -108,7 +108,7 @@ db.StudentInfo.insertMany([{ Name: "Huy" }, { Name: "Minh" }])
 <pre>
 <code>
 db.CollectionName.find()
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.find()
 </code>
 </pre>
@@ -117,7 +117,7 @@ db.StudentInfo.find()
 <pre>
 <code>
 db.CollectionName.updateOne({ Name: "currentName" }, { $set: { Name: "newName" } })
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.updateOne({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 </code>
 </pre>
@@ -126,7 +126,7 @@ db.StudentInfo.updateOne({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 <pre>
 <code>
 db.CollectionName.deleteOne({ Name: "nameToDelete" })
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.deleteOne({ Name: "Huy" })
 </code>
 </pre>
@@ -135,7 +135,7 @@ db.StudentInfo.deleteOne({ Name: "Huy" })
 <pre>
 <code>
 db.CollectionName.countDocuments()
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.countDocuments()
 </code>
 </pre>
@@ -144,7 +144,7 @@ db.StudentInfo.countDocuments()
 <pre>
 <code>
 db.CollectionName.find({ "field": "value" })
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.find({ Name: "Huy" })
 </code>
 </pre>
@@ -153,7 +153,7 @@ db.StudentInfo.find({ Name: "Huy" })
 <pre>
 <code>
 db.CollectionName.find().sort({ "field": 1 }) // 1 for ascending, -1 for descending
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.find().sort({ Name: 1 })
 </code>
 </pre>
@@ -162,7 +162,7 @@ db.StudentInfo.find().sort({ Name: 1 })
 <pre>
 <code>
 db.CollectionName.find().limit(number)
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.find().limit(5)
 </code>
 </pre>
@@ -171,7 +171,7 @@ db.StudentInfo.find().limit(5)
 <pre>
 <code>
 db.CollectionName.deleteMany({ "field": "value" })
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.deleteMany({ Name: "Huy" })
 </code>
 </pre>
@@ -180,7 +180,7 @@ db.StudentInfo.deleteMany({ Name: "Huy" })
 <pre>
 <code>
 db.CollectionName.updateMany({ "field": "value" }, { $set: { "fieldToUpdate": "newValue" } })
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.updateMany({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 </code>
 </pre>
@@ -189,7 +189,7 @@ db.StudentInfo.updateMany({ Name: "Huy" }, { $set: { Name: "Huy Tran" } })
 <pre>
 <code>
 db.CollectionName.replaceOne({ "field": "value" }, { "newDocument" })
-// <span style="color: #28a745;">For example:</span>
+<span style="color: #28a745;">For example:</span>
 db.StudentInfo.replaceOne({ Name: "Huy" }, { Name: "Huy Tran", Age: 22 })
 </code>
 </pre>
